@@ -1,4 +1,4 @@
-# System Zarządzania Zadaniami Domowymi
+# System zarządzania zadaniami domowymi
 
 ## Spis treści
 
