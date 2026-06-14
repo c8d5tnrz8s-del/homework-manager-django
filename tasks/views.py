@@ -6,19 +6,26 @@ from .forms import HomeworkForm
 def homework_list(request):
 
     query = request.GET.get('q')
+    status = request.GET.get('status')
+
+    homeworks = Homework.objects.all()
 
     if query:
-        homeworks = Homework.objects.filter(
+        homeworks = homeworks.filter(
             description__icontains=query
         )
-    else:
-        homeworks = Homework.objects.all()
+
+    if status:
+        homeworks = homeworks.filter(
+            status=status
+        )
 
     return render(
         request,
         'tasks/homework_list.html',
         {
-            'homeworks': homeworks
+            'homeworks': homeworks,
+            'selected_status': status
         }
     )
 
