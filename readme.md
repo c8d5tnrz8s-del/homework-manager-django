@@ -78,3 +78,8 @@ http://127.0.0.1:8000
 Panel administratora:
 
 http://127.0.0.1:8000/admin
+
+
+
+
+
