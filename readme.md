@@ -11,6 +11,9 @@
 ## Opis projektu
 
 Aplikacja internetowa stworzona w Django zgodnie ze wzorcem architektonicznym MVC. System umożliwia zarządzanie zadaniami domowymi przypisanymi do uczniów i przedmiotów.
+<img width="1470" height="702" alt="Zrzut ekranu 2026-06-20 o 16 08 16" src="https://github.com/user-attachments/assets/4d22ab1a-25fe-4704-81f9-5dcd3400ebb0" />
+<img width="1469" height="858" alt="Zrzut ekranu 2026-06-20 o 16 08 02" src="https://github.com/user-attachments/assets/69121fa1-72ca-474f-b29c-1b97d09849f1" />
+
 
 ## Funkcjonalności
 
